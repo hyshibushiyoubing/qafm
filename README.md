@@ -1,4 +1,4 @@
-# 📘 QF603 Final Project – Forecasting Bank Liquidity Risk
+# 📘 Forecasting Bank Liquidity Risk
 
 This repository contains our final project for **QF603: Quantitative Analysis of Financial Markets**, focused on forecasting liquidity risk for U.S. banks using advanced time series modeling techniques.
 
@@ -57,14 +57,13 @@ Predict the **Total Loans to Total Deposits (LTD)** ratio as a key liquidity ris
 ## 🙋 Contribution
 
 **My responsibility:**  
-I was in charge of implementing and interpreting the **VECM (Vector Error Correction Model)**. 
+I was responsible for the **VAR (Vector Autoregression) model** implementation and analysis. This involved:
 
-This included:
-- Testing for cointegration using Johansen’s test  
-- Estimating long-run equilibrium relationships among variables  
-- Interpreting adjustment coefficients and speed of convergence  
-- Evaluating VECM forecast performance across banks  
-- Discussing limitations and overfitting in unstable regimes (e.g., FRCB collapse)
+- Selecting macroeconomic and bank-level indicators  
+- Performing lag selection using AIC/BIC  
+- Estimating VAR models for each bank  
+- Interpreting impulse response functions (IRFs) and forecast error variance decomposition  
+- Evaluating model fit and predictive power across stable vs. distressed banks
 
 ---
 
